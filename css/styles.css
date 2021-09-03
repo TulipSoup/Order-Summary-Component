@@ -39,7 +39,6 @@ a:hover {
 }
 
 /* -------------------------- CLASS --------------------*/
-
 .card {
   background-color: white;
   border-radius: 20px;
@@ -47,7 +46,6 @@ a:hover {
   margin: 5% auto;
   text-align: center;
   width: 36%;
-
 }
 
 .top-container {
@@ -67,17 +65,18 @@ a:hover {
 }
 
 .icon-plan {
-   width: 48px;
+  width: 48px;
   height: 48px;
   margin: 16px;
   display: inline-block;
 }
 
 .text-plan {
-position: relative;
+  position: relative;
   display: inline-block;
   bottom: 8px;
 }
+
 .change-plan {
   position: relative;
   display: inline-block;
@@ -85,14 +84,6 @@ position: relative;
   left: 58px;
   align-items: center;
   justify-content: flex-end;
-
-
-  /*position: absolute;
-  right: 16px;*/
-
-  /* display: inline-flex;
-  align-items: center;
-  justify-content: flex-end; */
 }
 
 .btn-primary {
@@ -108,7 +99,7 @@ position: relative;
 
 .btn-primary:hover {
   background-color: hsl(245, 75%, 70%);
-  color:hsl(225, 100%, 98%);
+  color: hsl(225, 100%, 98%);
 }
 
 .btn-ghost {
