@@ -34,6 +34,10 @@ a {
   font-weight: 700;
 }
 
+a:hover {
+  color: hsl(245, 75%, 70%);
+}
+
 /* -------------------------- CLASS --------------------*/
 
 .card {
@@ -59,27 +63,36 @@ a {
   border-radius: 8px;
   margin: 32px 48px;
   text-align: left;
-  display: flex;
-  align-items: center;
+  position: relative;
 }
 
 .icon-plan {
-  width: 48px;
+   width: 48px;
   height: 48px;
   margin: 16px;
+  display: inline-block;
 }
 
 .text-plan {
-  width: 120px;
-  height: 48px;
+position: relative;
+  display: inline-block;
+  bottom: 8px;
 }
 .change-plan {
-  width: 80px;
-  height: 48px;
-  margin: auto 48px;
-  display: inline-flex;
+  position: relative;
+  display: inline-block;
+  bottom: 16px;
+  left: 58px;
   align-items: center;
   justify-content: flex-end;
+
+
+  /*position: absolute;
+  right: 16px;*/
+
+  /* display: inline-flex;
+  align-items: center;
+  justify-content: flex-end; */
 }
 
 .btn-primary {
@@ -91,7 +104,11 @@ a {
   margin: 0 48px 36px;
   padding: 16px 32px;
   text-decoration: none;
+}
 
+.btn-primary:hover {
+  background-color: hsl(245, 75%, 70%);
+  color:hsl(225, 100%, 98%);
 }
 
 .btn-ghost {
@@ -99,7 +116,10 @@ a {
   text-decoration: none;
   display: block;
   padding-bottom: 48px;
+}
 
+.btn-ghost:hover {
+  color: hsl(223, 47%, 23%);
 }
 
 .attribution {
