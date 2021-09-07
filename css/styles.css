@@ -14,7 +14,7 @@ h1 {
   margin: 48px 48px 0;
 }
 
-h3 {
+h2 {
   color: hsl(223, 47%, 23%);
   font-size: 1rem;
   font-weight: 900;
@@ -45,7 +45,7 @@ a:hover {
   box-shadow: 0 16px 24px 0 hsl(245, 75%, 90%);
   margin: 5% auto;
   text-align: center;
-  width: 36%;
+  width: 28rem;
 }
 
 .top-container {
@@ -61,29 +61,25 @@ a:hover {
   border-radius: 8px;
   margin: 32px 48px;
   text-align: left;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+
 }
 
 .icon-plan {
   width: 48px;
   height: 48px;
-  margin: 16px;
-  display: inline-block;
+  margin: 20px;
 }
 
 .text-plan {
-  position: relative;
-  display: inline-block;
-  bottom: 8px;
 }
 
 .change-plan {
-  position: relative;
-  display: inline-block;
-  bottom: 16px;
-  left: 58px;
-  align-items: center;
-  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .btn-primary {
